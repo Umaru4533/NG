@@ -14,7 +14,6 @@ tabs.forEach((tab) => {
       ".content"
     ).innerHTML = `<p>${this.textContent} content loaded...</p>`;
   });
-});
 
 // Hide dropdown on outside click
 document.addEventListener("click", function (e) {
